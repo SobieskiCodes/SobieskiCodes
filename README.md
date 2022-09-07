@@ -1,16 +1,20 @@
-### Hi there 👋
+### Hi there, I'm Justin 👋
+![Header image](https://raw.githubusercontent.com/SobieskiCodes/SobieskiCodes/main/GitHub_Header.jpg)
 
-<!--
-**SobieskiCodes/SobieskiCodes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<img align='right' src="https://raw.githubusercontent.com/SobieskiCodes/SobieskiCodes/main/Cloud-Computing.png" width="230">
 
-Here are some ideas to get you started:
+[comment]: <> (https://www.freepik.com/search?format=search&query=technology&type=icon hello future me)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```python
+aboutMe = {
+    "pronouns": "him" | "he",
+    "code": ["Javascript", "HTML", "CSS", "Python", "PHP"],
+    "technologyInterests": ["Automation", "APIs", "OSCP", "Kernal Injection"],
+    "pursuing": "Business Administration in Computer Information Systems",
+    "currentWork": "Security & Infrastructure in the mortgage sector",
+    "discord": "ProbsJustin#2162"
+    "email": "jmksobieski@gmail.com"
+}
+aboutMe["futureGoal"] = "Be a software developer for you." 
+```
+
