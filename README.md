@@ -12,7 +12,8 @@ aboutMe = {
     "technologyInterests": ["Automation", "APIs", "OSCP", "Kernal Injection"],
     "pursuing": "Business Administration in Computer Information Systems",
     "currentWork": "Security & Infrastructure in the mortgage sector",
-    "discord": "ProbsJustin#2162"
+    "linkedin: "https://www.linkedin.com/in/justinsobieski",
+    "discord": "ProbsJustin#2162",
     "email": "jmksobieski@gmail.com"
 }
 aboutMe["futureGoal"] = "Be a software developer for you." 
