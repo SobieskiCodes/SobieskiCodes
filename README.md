@@ -10,7 +10,7 @@
 aboutMe = {
     "pronouns": "him" | "he",
     "invalidSyntax": ["Javascript", "HTML", "CSS", "Python", "PHP"],
-    "technologyInterests": ["Automation", "Scripting", "Bots", "APIs", "OSCP", "Kernal Injection"],
+    "technologyInterests": ["Automation", "Scripting", "Bots", "APIs", "Injection"],
     "currentlyPursuing": "Business Administration in Computer Information Systems",
     "currentWork": "Security & Infrastructure in the mortgage sector",
     "currentFocus": "Learning google app scripting"
