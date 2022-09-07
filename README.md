@@ -6,16 +6,18 @@
 [comment]: <> (https://www.freepik.com/search?format=search&query=technology&type=icon hello future me)
 
 ```python
+
 aboutMe = {
     "pronouns": "him" | "he",
-    "code": ["Javascript", "HTML", "CSS", "Python", "PHP"],
-    "technologyInterests": ["Automation", "APIs", "OSCP", "Kernal Injection"],
-    "pursuing": "Business Administration in Computer Information Systems",
+    "invalidSyntax": ["Javascript", "HTML", "CSS", "Python", "PHP"],
+    "technologyInterests": ["Automation", "Scripting", "Bots", "APIs", "OSCP", "Kernal Injection"],
+    "currentlyPursuing": "Business Administration in Computer Information Systems",
     "currentWork": "Security & Infrastructure in the mortgage sector",
-    "linkedin: "https://www.linkedin.com/in/justinsobieski",
+    "currentFocus": "Learning google app scripting"
     "discord": "ProbsJustin#2162",
     "email": "jmksobieski@gmail.com"
 }
 aboutMe["futureGoal"] = "Be a software developer for you." 
+
 ```
 
