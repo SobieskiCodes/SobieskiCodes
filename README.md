@@ -13,7 +13,7 @@ aboutMe = {
     "technologyInterests": ["Automation", "Scripting", "Bots", "APIs", "Injection"],
     "currentlyPursuing": "Business Administration in Computer Information Systems",
     "currentWork": "Security & Infrastructure in the mortgage sector",
-    "currentFocus": "Learning google app scripting"
+    "currentFocus": "Learning google app scripting",
     "discord": "ProbsJustin#2162",
     "email": "jmksobieski@gmail.com"
 }
