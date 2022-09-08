@@ -5,7 +5,7 @@
 
 [comment]: <> (https://www.freepik.com/search?format=search&query=technology&type=icon hello future me)
 
-<img align='right' src="https://raw.githubusercontent.com/SobieskiCodes/SobieskiCodes/main/Assets/SideImage.png">
+<img align='right' src="https://raw.githubusercontent.com/SobieskiCodes/SobieskiCodes/main/Assets/SideImageLongAndThinWithExtras.png">
 
 
 
