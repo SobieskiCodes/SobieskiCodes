@@ -32,10 +32,14 @@ class Person:
     goals: Dict = create_field({"collect": "the fish", "youToRunThis": f'mailto:?to='})
 
     def contact(self):
-        return f"You can contact me by email, {self.goals.get('youToRunThis')}{self.email} or discord at {self.discord}"
+        response = f"You can contact me by email at, " \
+                   f"{self.goals.get('youToRunThis')}{self.email} " \
+                   f"or discord at {self.discord}."
+        return response
 
 
 me = Person()
 print(me.contact())
+
 
 ```
