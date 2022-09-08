@@ -11,7 +11,11 @@
 
 ```python
 from dataclasses import dataclass, field
-from typing import List, Dict
+from typing import List, Dict, Union
+
+
+def create_field(values: Union[list[str], dict]):
+    return field(default_factory=lambda: values)
 
 
 @dataclass
@@ -20,15 +24,12 @@ class Person:
     age: int = 30
     email: str = 'jmksobieski@gmail.com'
     discord: str = 'ProbsJustin#2162'
-    pronouns: List = field(default_factory=lambda: ["him", "he"])
-    code: List = field(default_factory=lambda: ["Javascript", "HTML", "CSS", "Python", "PHP"])
-    technologyInterests: List = field(default_factory=lambda: ["Automation", "APIs", "OSCP", "Kernal Injection"])
+    pronouns: List = create_field(["him", "he"])
+    code: List = create_field(["Javascript", "HTML", "CSS", "Python", "PHP"])
+    technologyInterests: List = create_field(["Automation", "APIs", "OSCP", "Kernal Injection"])
     pursuing: str = 'Business Administration in Computer Information Systems'
     currentWork: str = 'Security & Infrastructure in the mortgage sector'
-    goals: Dict = field(default_factory=lambda: {"collect": "the fish", "youToRunThis": f'mailto:?to='})
-
-    def __repr__(self):
-        return self.email
+    goals: Dict = create_field({"collect": "the fish", "youToRunThis": f'mailto:?to='})
 
     def contact(self):
         return f"You can contact me by email, {self.goals.get('youToRunThis')}{self.email} or discord at {self.discord}"
@@ -36,4 +37,5 @@ class Person:
 
 me = Person()
 print(me.contact())
+
 ```
