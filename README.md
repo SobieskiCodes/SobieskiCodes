@@ -1,15 +1,14 @@
-### Hi there, I'm Justin 👋
 ![Header image](https://raw.githubusercontent.com/SobieskiCodes/SobieskiCodes/main/Assets/GitHub_Header.jpg)
 
 
 
 [comment]: <> (https://www.freepik.com/search?format=search&query=technology&type=icon hello future me)
-
+Hi there, I'm Justin 👋
 <img align='right' src="https://raw.githubusercontent.com/SobieskiCodes/SobieskiCodes/main/Assets/SideImageLongAndThinWithExtras.png">
 
 
-
 ```python
+
 from dataclasses import dataclass, field
 from typing import List, Dict, Union
 
