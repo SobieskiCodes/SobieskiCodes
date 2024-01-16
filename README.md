@@ -1,4 +1,4 @@
-![Header image](https://raw.githubusercontent.com/SobieskiCodes/SobieskiCodes/main/Assets/GitHub_Header.jpg)
+![Header image](https://raw.githubusercontent.com/SobieskiCodes/SobieskiCodes/main/Assets/test_header.png)
 
 
 
