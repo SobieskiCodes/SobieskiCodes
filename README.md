@@ -1,4 +1,4 @@
-![Header image](https://raw.githubusercontent.com/SobieskiCodes/SobieskiCodes/main/Assets/test_header.png)
+![Header image](https://raw.githubusercontent.com/SobieskiCodes/SobieskiCodes/main/Assets/GitHub_Header.jpg)
 
 
 
@@ -20,14 +20,14 @@ def create_field(values: Union[list[str], dict]):
 @dataclass
 class Person:
     name: str = 'justin'
-    age: int = 30
+    age: int = 32
     email: str = 'jmksobieski@gmail.com'
-    discord: str = 'ProbsJustin#2162'
+    discord: str = 'probsdad'
     pronouns: List = create_field(["him", "he"])
-    code: List = create_field(["Javascript", "HTML", "CSS", "Python", "PHP"])
+    code: List = create_field(["Javascript", "HTML", "React", "Python", "PHP"])
     technologyInterests: List = create_field(["Automation", "APIs", "OSCP", "Kernal Injection"])
-    pursuing: str = 'Business Administration in Computer Information Systems'
-    currentWork: str = 'Security & Infrastructure in the mortgage sector'
+    pursuing: str = 'Bachelor of Science in Computer Science'
+    currentWork: str = 'Support Engineer'
     goals: Dict = create_field({"collect": "the fish", "youToRunThis": f'mailto:?to='})
 
     def contact(self):
